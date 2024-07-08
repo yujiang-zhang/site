@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Generate site
-        run: pnpm gen
+        run: pnpm gensite
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
