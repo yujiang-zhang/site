@@ -2,7 +2,7 @@
 title: zyjared
 theme:
   name: zyjared
-  description: 🌱 I'm currently learning Rust.
+  description: 🌱 正在学习 Rust.
   avatar: avatar.png
   link: https://github.com/zyjared/
 ---
