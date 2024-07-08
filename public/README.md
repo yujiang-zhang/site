@@ -9,12 +9,9 @@ theme:
 
 # __zy__**Jared**
 
-<!-- <small>🌱 I'm currently learning Rust.</small>
- [![avatar](avatar.png)](https://github.com/zyjared/ "github link") -->
+> 欢迎访问。
 
-> I obtained a bachelor's degree in Management and self-taught JavaScript, Typescript, Python, C, and Java during my university years. After graduation, I started my career as a management trainee and later transitioned into front-end development. Currently, I am focused on expanding my expertise in front-end technologies and Rust. My objective is to enhance my academic qualifications and broaden my professional horizons.
-
-## Navigation
+## 导航
 
 + [Outlook](https://outlook.live.com/)
 + [MDN](https://developer.mozilla.org/zh-CN/)
@@ -22,7 +19,7 @@ theme:
 + [有道词典](https://dict.youdao.com/)
 + [bilibili](https://www.bilibili.com/)
 
-## About Me
+## 关于我
 
 - [Github](https://github.com/zyjared/)
 - [Twitter](https://x.com/home)
