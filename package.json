@@ -13,7 +13,7 @@
   "module": "./build/index.js",
   "types": "./build/types/index.d.ts",
   "bin": {
-    "buildpage": "build/scripts/gen.js"
+    "buildpage": "build/scripts/buildpage.js"
   },
   "files": [
     "build"
@@ -23,8 +23,8 @@
     "lint": "eslint ./src/ ./scripts/",
     "lint:fix": "pnpm lint --fix",
     "build": "pnpm clean && pnpm lint && tsc && ts-node ./scripts/build.ts",
-    "gen": "ts-node ./src/scripts/gen.ts",
-    "test": "pnpm build && node ./build/scripts/gen.js",
+    "gensite": "ts-node ./src/scripts/buildpage.ts",
+    "test": "pnpm build && node ./build/scripts/buildpage.js",
     "patch": "npm version patch -m \"chore(release): %s\""
   },
   "dependencies": {

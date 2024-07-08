@@ -1,17 +1,17 @@
-# @zyjared/genpage
+# buildpage
 
-根据 `.md` 文件生成特定主题的 `.html`。
+根据 markdown 文件生成特定主题的 html。
 
 ## 使用
 
 ```sh
-$ pnpm add -D @zyjared/genpage
+$ pnpm add -D @zyjared/buildpage
 ```
 
 该命令会直接将 `README.md` 生成 `index.html`:
 
 ```sh
-$ pnpm genpage
+$ pnpm buildpage
 ```
 
 ## 主题
@@ -33,7 +33,7 @@ theme:
 
 ## 配置
 
-如果不需要默认行为，也可以创建 `genpage.config.ts` 进行配置。
+如果不需要默认行为，也可以创建 `buildpage.config.ts` 进行配置。
 
 ```ts
 import { defineConfig } from '@zyjared/genpage'
@@ -64,7 +64,7 @@ export default defineConfig({
 ```sh
 $ pnpm genpage -h
 
-# Usage: build [options]
+# Usage: buildpage [options]
 #
 # Options:
 #   -V, --version          output the version number
