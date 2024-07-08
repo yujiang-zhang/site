@@ -4,14 +4,17 @@
 
 ## 使用
 
+会依据根目录的 `README.md` 生成 `index.html`。
+
 ```sh
-$ pnpm add -D @zyjared/buildpage
+npx @zyjared/buildpage
 ```
 
-该命令会直接将 `README.md` 生成 `index.html`:
+或者：
 
 ```sh
-$ pnpm buildpage
+pnpm add -D @zyjared/buildpage
+pnpm buildpage
 ```
 
 ## 主题

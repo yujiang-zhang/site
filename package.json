@@ -25,7 +25,8 @@
     "build": "pnpm clean && pnpm lint && tsc && ts-node ./scripts/build.ts",
     "gensite": "ts-node ./src/scripts/buildpage.ts",
     "test": "pnpm build && node ./build/scripts/buildpage.js",
-    "patch": "npm version patch -m \"chore(release): %s\""
+    "patch": "npm version patch -m \"chore(release): %s\"",
+    "release": "npm publish --access public"
   },
   "dependencies": {
     "@types/fs-extra": "^11.0.4",
